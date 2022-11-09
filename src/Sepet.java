@@ -11,7 +11,7 @@ public class Sepet {
         }
         return toplamTutar;
     }
-    public void urunEkle(Urun urun){
+    public void sepeteUrunEkle(Urun urun){
         urunler.add(urun);
     }
 }

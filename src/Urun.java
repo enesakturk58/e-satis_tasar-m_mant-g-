@@ -8,6 +8,10 @@ public class Urun {
     setIsim(isim);
     }
 
+     public void urunBilgi(){
+         System.out.println("Ürünün İsmi : " + getIsim());
+         System.out.println("Ürünün Fiyatı : " + getFiyat());
+     }
     public Double getFiyat() {
         return fiyat;
     }
