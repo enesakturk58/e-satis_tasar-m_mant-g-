@@ -1,2 +1,17 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Sepet {
+
+    List<Urun> urunler=new ArrayList<Urun>();
+    public double sepetHesapla(){
+        int toplamTutar=0;
+        for (Urun urun : urunler){
+            toplamTutar+=urun.getFiyat();
+        }
+        return toplamTutar;
+    }
+    public void urunEkle(Urun urun){
+        urunler.add(urun);
+    }
 }
